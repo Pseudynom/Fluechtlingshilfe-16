@@ -1,0 +1,133 @@
+<html>
+	<head>
+		<meta content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="./.ressourcen/css/main.css">
+		<script src="./.ressourcen/js/jquery-2.1.4.min.js"></script>
+		<title>Fl&uuml;chtlingshilfe</title>
+		
+		<script src="./.ressourcen/js/jquery-2.1.4.min.jss"></script>
+		<script> 
+		$(document).ready(function(){
+			$("#c_team_head").click(function(){
+				$("#c_team").slideDown("slow");
+				$("#c_project").slideUp("slow");
+				$("#c_tasks").slideUp("slow");
+				$("#c_protocol").slideUp("slow");
+			});
+			$("#c_project_head").click(function(){
+				$("#c_team").slideUp("slow");
+				$("#c_project").slideDown("slow");
+				$("#c_tasks").slideUp("slow");
+				$("#c_protocol").slideUp("slow");
+			});
+			$("#c_tasks_head").click(function(){
+				$("#c_team").slideUp("slow");
+				$("#c_project").slideUp("slow");
+				$("#c_tasks").slideDown("slow");
+				$("#c_protocol").slideUp("slow");
+			});
+			$("#c_protocol_head").click(function(){
+				$("#c_team").slideUp("slow");
+				$("#c_project").slideUp("slow");
+				$("#c_tasks").slideUp("slow");
+				$("#c_protocol").slideDown("slow");
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<div class="main_container">
+			<div class="container_head" id="c_team_head"><h1>Team</h1></div>
+			<div class="container" id="c_team">
+				<table cellspacing="0">
+					<tr>
+						<th></th>
+						<th class="t_head_row">Leiter</th>
+						<th class="t_head_row">Stellvertreter</th>
+					</tr>
+					<tr>
+						<th class="t_head_column">Projektleiter</th>
+						<th class="t_right">Alexander Prull</th>
+						<th class="t_right">Katharina Thie&szlig;en</th>
+					</tr>
+					<tr>
+						<th class="t_head_column">technischer Assistent</th>
+						<th class="t_right">Konstantin Diesmann</th>
+						<th class="t_right">Caroline M&ouml;sler</th>
+					</tr>
+					<tr>
+						<th class="t_head_column">Recherche</th>
+						<th class="t_right">J&ouml;rn-Henning Daug</th>
+						<th class="t_right">Alexander Prull</th>
+					</tr>
+					<tr>
+						<th class="t_head_column">Modellierung</th>
+						<th class="t_right">Katharina Thie&szlig;en</th>
+						<th class="t_right">Maximilian M&ouml;ller</th>
+					</tr>
+					<tr>
+						<th class="t_head_column">Tests</th>
+						<th class="t_right">Caroline M&ouml;sler</th>
+						<th class="t_right">Denise Arnold</th>
+					</tr>
+					<tr>
+						<th class="t_head_column">Implementierung</th>
+						<th class="t_right">Stefan Bechert</th>
+						<th class="t_right">Konstantin Diesmann</th>
+					</tr>
+					<tr>
+						<th class="t_head_column">Dokumentation</th>
+						<th class="t_right">Maximilian M&ouml;ller</th>
+						<th class="t_right">J&ouml;rn-Henning Daug</th>
+					</tr>
+					<tr>
+						<th class="t_head_column">Qualit&auml;tssicherung</th>
+						<th class="t_right">Denise Arnold</th>
+						<th class="t_right">Stefan Bechert</th>
+					</tr>
+				</table>
+			</div>
+		
+			<div class="container_head" id="c_project_head"><h1>Projekt</h1></div>
+			<div class="container" id="c_project">
+				In Leipzig sind bereits viele Fl&uuml;chtlinge aus Kriegs- und Kriesengebieten angekommen und kommen auch voraussichtlich in Zukunft noch an. Die Hilfsbereitschaft der in Leipzig lebenden Menschen ist ebenfalls gro&szlig;. Zur Umsetzung der konkreten Fl&uuml;chtlingshilfe haben sich verschiedene Initiativen und &uuml;bergreifende Organisationen zusammen gefunden und bereiterkl&auml;rt. Diese gro&szlig;e Notwendigkeit von Hilfe und Bereitschaft zur Hilfe ben&ouml;tigt eine umfassende Koordination.<br><br>
+				Im Rahmen dieser Aufgabe soll daher ein Software-System entstehen, welches die Koordination von ehrenamtlichen Helferinnen und Helfern, Projekten, Informationen und Initiativen erleichtert. Zu diesem Zweck muss es m&ouml;glich sein, Informationen der Helfer und Helferinnen (z.B.: Adresse, Sprachkenntnisse, Verf&uuml;gbarkeit) und Informationen zu Projekten, Initiativen und Anlaufstellen bzw. Verantwortlichen in das System einzupflegen bzw. zu &auml;ndern. Diese Daten sollen auf unterschiedliche Weise visualisiert werden k&ouml;nnen (z.B. Karte), es sollen verschiedene Suchanfragen m&ouml;glich sein und entsprechend einem Recommender-System sollen dem Koordinator Vorschl&auml;ge (z.B. auf Basis der Adresse) gemacht werden, zu welchem Projekt bzw. zu welcher Initiative er Helfer vermitteln kann.<br>
+				(<a href="https://olat.informatik.uni-leipzig.de/auth/1%3A1%3A0%3A0%3A0/">Quelle</a>)
+			</div>
+		
+			<div class="container_head" id="c_tasks_head"><h1>Aufgaben</h1></div>
+			<div class="container" id="c_tasks">
+				<table>
+					<tr>
+						<th class="t_head_column">Sprint 1</th> <th class="t_left">Teamfindung &#10004;</th>
+					</tr>
+					<tr>
+						<th class="t_head_column">Sprint 2</th> <th class="t_left">Planung</th>
+					</tr>
+					<tr>
+						<th class="t_head_column">Sprint 3</th> <th class="t_left">Implementierung</th>
+					</tr>
+					<tr>
+						<th class="t_head_column">Sprint 4</th> <th class="t_left">Keine Ahnung</th>
+					</tr>
+				</table>
+			</div>
+		
+			<div class="container_head" id="c_protocol_head"><h1>Protokolle</h1></div>
+			<div class="container" id="c_protocol">
+				<table cellspacing="10">
+					<tr>
+						<th></th>
+						<th class="t_head_row">Datum</th>
+						<th class="t_head_row">Protokoll</th>
+					</tr>
+					<tr>
+						<th class="t_head_column">Scrum 1</th>
+						<th class="t_right">08.12.2015</th>
+						<th class="t_right"><a class="inv_link" onClick="javascript:window.location.href='./Protokolle/protokoll_1.pdf'">Download</a></th>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
