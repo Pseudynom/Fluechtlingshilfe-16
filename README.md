@@ -1,6 +1,6 @@
 # Fluechtlingshilfe-16
 <<<<<<< HEAD
-Test von Denise
+
 =======
 In Leipzig sind bereits viele Flüchtlinge aus Kriegs- und Kriesengebieten angekommen und kommen auch voraussichtlich in Zukunft noch an. Die Hilfsbereitschaft der in Leipzig lebenden Menschen ist ebenfalls groß. Zur Umsetzung der konkreten Flüchtlingshilfe haben sich verschiedene Initiativen und übergreifende Organisationen zusammen gefunden und bereiterklärt. Diese große Notwendigkeit von Hilfe und Bereitschaft zur Hilfe benötigt eine umfassende Koordination.
 
