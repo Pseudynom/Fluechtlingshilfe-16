@@ -1,0 +1,86 @@
+body{
+	background-color:#dfffdf;
+	font-family:Helvetica;
+	font-size:12pt;
+	font-weight:100;
+	margin:0;
+	padding:0;
+}
+table{
+	margin: 0 auto;
+	border-collapse:collapse;
+}
+table, td, th{
+	border: 1pt solid #303030;
+}
+th{padding:5px;}
+table td{text-align: left;}
+table th{
+	padding:5px;
+	font-weight:100;
+}
+
+.main_container{
+	position:absolute;
+	top:5%;
+	left:20%;
+	width:60%;
+	text-align:center;
+	background-color:#f0f0f0;
+	margin:0;
+	border-top:1px solid #000000;
+	border-bottom:1px solid #000000;
+}
+.container{
+	position:relative;
+	text-align:center;
+	top:0;
+	width:calc(100% - 20px);
+	border-bottom:1px solid #000000;
+	padding:10px;
+	display:none;
+}
+.container_head{
+	border-top:1px solid #000000;
+	border-bottom:1px solid #000000;
+	background-color:#f7f7f7;
+	cursor:pointer;
+}
+
+.t_head_row{
+	text-align:left;
+	font-weight:900;
+}
+.t_head_column{
+	text-align:right;
+	font-weight:800;
+}
+.t_right{text-align:right;}
+.t_left{text-align:left;}
+
+#c_team{
+	background-color:#f7f7ff;
+}
+#c_project{
+	background-color:#f7fff7;
+	text-align:justify;
+	display:block;
+}
+#c_tasks{
+	background-color:#fff7f7;
+}
+#c_protocol{
+	background-color:#fffff7;
+}
+
+.inv_link{
+	color:#000090;
+	cursor:pointer;
+}
+
+#progressbar{
+	position:absolute;
+	background-color:#009900;
+	width:10px;
+	height:100%;
+}
